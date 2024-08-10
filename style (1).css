@@ -1,0 +1,69 @@
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: #161A8E;
+    display: flex;
+    justify-content: center;
+}
+.quiz-container{
+    margin-top: 2rem;
+    height: 70%;
+    width: 35%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.Simple-quiz{
+    color: #090835;
+    height: 1rem;
+}
+.button{
+    padding: 0.5rem;
+    margin-bottom: 0.3rem;
+    text-align: start;
+       color:#090835;
+       transition: all 3s ;
+}
+.button:hover:not([disabled]){
+    color: #fff;
+    background-color: #222;
+}
+.button :disabled{
+    cursor: no-drop;
+}
+.ans-box{
+    display: flex;
+    flex-direction: column;
+}
+.button:hover{
+    border: 2px solid #161A8E;
+    border-radius: 4px;
+}
+.Question{
+    color:#090835 ;
+}
+.next-btn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p{
+    color: blue;
+}
+.next-btn{
+  //  display: none;
+    width: 20%;
+    padding: 0.5rem;
+    background-color:#161A8E ;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.correct{
+    background-color: green;
+}
+.incorrect{
+    background-color: red;
+}
